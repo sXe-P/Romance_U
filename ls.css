@@ -1,8 +1,16 @@
     body {
     min-height: 100vh;
     margin: 0;
-    background: #171717; 
+    background: #121212;
+    font: comic-sanz;
+    color: rgb(119, 119, 119);
+    text-shadow: 3px;
           }
-    Header {
-    align-content: center;
+    .xat {
+    text-align: center;
           }
+    div .title {
+        margin: 11;
+        font-size: 36px;
+        text-align: left;
+}
