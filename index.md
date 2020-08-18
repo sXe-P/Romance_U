@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'> 
+	
+  	<head>
 
-You can use the [editor on GitHub](https://github.com/sXe-P/Romance_U/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+      <title>♥Romance Universal♥</title>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      <b:skin><![CDATA[
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sXe-P/Romance_U/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	]]>
+    </b:skin>
+	</head>
+		
+  <body>
+      <b:section id='Header'>
+          <b:widget id="Header1" type="Header">
+              <b:includable id="main">
+          <embed wmode="solid" src="https://www.xatech.com/web_gear/chat/chat.swf" quality="high" width="730" height="490" name="chat" 			FlashVars="id=199153989" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" 	pluginspage="https://xat.com/update_flash.php" />
+                  </b:includable>
+              </b:widget>
+      </b:section>
+      <b:section id='main'/>
+	</body>
+</html>
