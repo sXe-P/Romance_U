@@ -1,16 +1,39 @@
-    body {
+*{
+margin: 0;
+padding: 0;
+}
+html {
     min-height: 100vh;
-    margin: 0;
     background: #121212;
-    font: comic-sanz;
+    font-family: fantasy;
+    text-shadow: 122px;
     color: rgb(119, 119, 119);
-    text-shadow: 3px;
-          }
-    .xat {
+}
+.xat__item {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    background: #343434;
     text-align: center;
-          }
-    div .title {
-        margin: 11;
-        font-size: 36px;
-        text-align: left;
+}
+.xat__item:before {
+        content: "";
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #000;
+}
+
+.xatbox {
+    position: relative;
+    display: flex;
+}
+div .title {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 30px;
 }
