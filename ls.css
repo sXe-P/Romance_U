@@ -84,7 +84,9 @@ div .title {
 .repro {
     position: fixed;
     top: 100v;
-    left: 0;
+    left: 90v;
     right: 0;
     bottom: 0;
+    margin: auto;
+    
 }
