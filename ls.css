@@ -15,15 +15,6 @@ body {
     height: 490px;
     position: absolute;
 }
-.xatbox:after {
-    content: "";
-    position:absolute;
-    top: auto;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    filter: brightness(11.9) blur(48px) !important;
-}
 .xat {
     width: 100%;
     display: block;
@@ -31,7 +22,7 @@ body {
     margin: auto;
     margin-bottom: 10px;
     padding: auto;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     background: linear-gradient(#343434 70%,rgba(15, 15, 15,1));
     justify-content: center;
     align-items: center;
@@ -40,6 +31,7 @@ body {
     width: 730px;
     height: 490px;
     position: relative;
+    margin: auto;
     justify-content: center;
     align-items: center;
 }
@@ -53,7 +45,7 @@ body {
     right: 2px;
     bottom: 2px;
     background: #343434;
-    filter: brightness(1.9) blur(48px) !important;
+    filter: brightness(1.9) blur(10px) !important;
 }
 div .title {
     font-size: 36px;
