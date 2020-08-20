@@ -4,6 +4,6 @@ $(document).ready(function(){
     })
     
     $('#btn_fresh').click(function(){
-    $("#player1").load("radio.html");
+    $("#player1").load("https://sxe-p.github.io/Romance_U/radio.html");
     })
 });
