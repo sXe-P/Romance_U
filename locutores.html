@@ -1,1 +1,7 @@
-<b:include name="inicio" />
+<b:loop values="data:posts" var="post">
+                         <div class="titulo"><data:post.title/></div>
+                        <div class="parrafo"><data:post.body/>
+                        <div class="infopost">
+                            <span>Escrito por: <data:post.author/> <data:post.timestamp/></span>
+                        </div></div>
+                        </b:loop>
