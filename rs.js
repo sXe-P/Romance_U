@@ -4,23 +4,28 @@ $(document).ready(function(){
     $('#btn_radio').click(function(){
     $('#player').toggleClass('full');
     })
-    
+});
+$(document).ready(function(){
     $('#btn_fresh').click(function(){
     $("#player1").load("p/player1.html");
     })
-	
+});
+$(document).ready(function(){
 	$('#btn-inicio').click(function(){
-    $(".box1").load("index.html");
+    $(".box1").load("@inicio");
     })
-	
+});
+$(document).ready(function(){
 	$('#btn-juegos').click(function(){
     $(".box1").load("p/juegos.html");
     })
-	
+});
+$(document).ready(function(){
 	$('#btn-locutores').click(function(){
     $(".box1").load("p/locutores.html");
     })
-	
+});	
+$(document).ready(function(){
 	$('#btn-programacion').click(function(){
     $(".box1").load("p/programacion.html");
     })
