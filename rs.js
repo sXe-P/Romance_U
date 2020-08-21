@@ -15,13 +15,13 @@ $(document).ready(function(){
     })
 
 	$('#btn-juegos').click(function(){
-    $(".box1").load("p/juegos.html");
+    $(".box1").load("https://romanceuniversal.top.mx/p/juegos.html");
     })
 
 	$('#btn-locutores').click(function(){
-    $(".box1").load("p/locutores.html");
+    $(".box1").load("https://romanceuniversal.top.mx/p/locutores.html");
     })
 
 	$('#btn-programacion').click(function(){
-    $(".box1").load("p/programacion.html");
+    $(".box1").load("https://romanceuniversal.top.mx/p/programacion.html");
     })
