@@ -48,6 +48,17 @@
     color: #bbb;
     text-shadow: 1px 1px 1px #000;
     font-family: 'Lobster', cursive;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.menu .btn:hover {
+	 content: "";
+	position: relative;
+	background: linear-gradient(to right, #4f4f4f 0%, #4a4a4a 50%, #474747 51%, #454545 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#454545', GradientType=1 );
+	right: -3;
+	transition: 0.8s;
 }
 
 .titulo {
