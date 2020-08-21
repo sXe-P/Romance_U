@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $('#btn_fresh').click(function(){
-    $("#player1").load("p/player1.html");
+    $("#player1").load("https://sxe-p.github.io/Romance_U/radio.html");
     })
 });
 $(document).ready(function(){
