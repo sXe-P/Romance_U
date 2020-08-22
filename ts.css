@@ -65,6 +65,7 @@
     position: relative;
     display: block;
     font-size: 1.5rem;
+	text-decoration: none;
     text-shadow: -1px 1px 5px #000;
     font-family: cambria;
 	color: #FFF;
