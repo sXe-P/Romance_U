@@ -2,6 +2,9 @@
 margin: 0;
 padding: 0;
 }
+body {
+	height: auto;
+}
 .body {
     min-height: 100vh;
     background: #0f0f0f;
