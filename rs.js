@@ -9,11 +9,6 @@ $(document).ready(function(){
     $('#btn_fresh').click(function(){
     $("#player1").load("https://sxe-p.github.io/Romance_U/radio.html");
     })
-
-	$('#btn-inicio').click(function(){
-    $(".box1").load("data:blog.homepageURL");
-    })
-
 	$('#btn-juegos').click(function(){
     $(".box1").load("https://sxe-p.github.io/Romance_U/juegos.html");
     })
