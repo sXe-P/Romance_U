@@ -11,7 +11,7 @@ $(document).ready(function(){
     })
 
 	$('#btn-inicio').click(function(){
-    $(".box1").load("@inicio");
+    $(".box1").load("data:post.url");
     })
 
 	$('#btn-juegos').click(function(){
