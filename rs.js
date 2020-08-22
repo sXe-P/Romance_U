@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 	$(".box1").load("https://romanceuniversal.top.mx/index.html");
     $('#btn_fresh').click(function(){
-    $("#player1").load("player1.html");
+    $("#player1").load("https://sxe-p.github.io/Romance_U/radio.html");
     })
 
 	$('#btn-inicio').click(function(){
@@ -15,13 +15,13 @@ $(document).ready(function(){
     })
 
 	$('#btn-juegos').click(function(){
-    $(".box1").load("p/juegos.html");
+    $(".box1").load("https://sxe-p.github.io/Romance_U/juegos.html");
     })
 
 	$('#btn-locutores').click(function(){
-    $(".box1").load("/locutores.html");
+    $(".box1").load("https://sxe-p.github.io/Romance_U/locutores.html");
     })
 
 	$('#btn-programacion').click(function(){
-    $(".box1").load("/programacion.html");
+    $(".box1").load("https://sxe-p.github.io/Romance_U/programacion.html");
     })
