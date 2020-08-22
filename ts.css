@@ -82,3 +82,7 @@
     text-align: right;
     text-decoration: underline overline;
 }
+
+#Box1 {
+	height: auto;
+}
