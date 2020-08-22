@@ -84,6 +84,11 @@
 }
 a {
 	text-decoration: none;
+	color: #b092dd;
+}
+a:hover {
+	content: "";
+	color: #DDD;
 }
 .idx {
 	margin: 5px;
