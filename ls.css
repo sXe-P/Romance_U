@@ -4,6 +4,7 @@ padding: 0;
 }
 body {
 	height: auto;
+	position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -168,4 +169,14 @@ div .title {
 }
 .load {
     opacity: 55%;
+}
+.footer {
+	width: 511px;
+	margin: auto;
+	margin-bottom: 30px;
+	padding: auto;
+	text-align: center;
+	color: #777;
+	font-family: monospace;
+	opacity: .50;
 }
