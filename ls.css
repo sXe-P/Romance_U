@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 }
-body {
+.body {
     min-height: 100vh;
     background: #0f0f0f;
     justify-content: center;
