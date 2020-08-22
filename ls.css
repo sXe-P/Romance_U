@@ -9,7 +9,9 @@ body {
 body::-webkit-scrollbar {
 	width: 3px;
 }
-
+body::-webkit-scrollbar-thumb {
+	background: #b092dd;
+}
 .body {
     min-height: 100vh;
     background: #0f0f0f;
