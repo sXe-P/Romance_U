@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('#player').toggleClass('full');
     })
 });
-	$(".box1").load("https://romanceuniversal.top.mx/index.html");
+
     $('#btn_fresh').click(function(){
     $("#player1").load("https://sxe-p.github.io/Romance_U/radio.html");
     })
