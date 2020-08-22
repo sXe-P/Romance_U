@@ -11,7 +11,7 @@ $(document).ready(function(){
     })
 
 	$('#btn-inicio').click(function(){
-    $(".box1").load("https://romanceuniversal.top.mx/index.html");
+    $(".box1").load("https://sxe-p.github.io/Romance_U/home.html");
     })
 
 	$('#btn-juegos').click(function(){
