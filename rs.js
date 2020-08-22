@@ -7,16 +7,21 @@ $(document).ready(function(){
 });
 
     $('#btn_fresh').click(function(){
-    $("#player1").load("https://sxe-p.github.io/Romance_U/radio.html");
+    $("#player1").load("https://romanceuniversal.top.mx/p/radio.html");
     })
+
+	$('#btn-inicio').click(function(){
+    $(".box1").load("https://romanceuniversal.top.mx/index.html");
+    })
+
 	$('#btn-juegos').click(function(){
-    $(".box1").load("https://sxe-p.github.io/Romance_U/juegos.html");
+    $(".box1").load("https://romanceuniversal.top.mx/p/juegos.html");
     })
 
 	$('#btn-locutores').click(function(){
-    $(".box1").load("https://sxe-p.github.io/Romance_U/locutores.html");
+    $(".box1").load("https://romanceuniversal.top.mx/p/locutores.html");
     })
 
 	$('#btn-programacion').click(function(){
-    $(".box1").load("https://sxe-p.github.io/Romance_U/programacion.html");
+    $(".box1").load("https://romanceuniversal.top.mx/p/programacion.html");
     })
