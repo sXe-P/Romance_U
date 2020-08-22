@@ -1,10 +1,8 @@
 /*navigator.mediaDevices.getUserMedia({ audio: true, video: false }).then((stream)=>{console.log(stream) }).catch((err)=>console.log(err))*/
 
-$(document).ready(function(){
     $('#btn_radio').click(function(){
     $('#player').toggleClass('full');
     })
-});
 
     $('#btn_fresh').click(function(){
     $("#player1").load("https://romanceuniversal.top.mx/p/radio.html");
