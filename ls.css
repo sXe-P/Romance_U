@@ -151,8 +151,8 @@ div .title {
 .onair {
     color: #fff;
     margin: auto;
-    text-align: center;
-    text-shadow: .1px .1px #000;
+	margin-left: 1em;
+    text-shadow: .7px .8px 1px #000;
 }
 .fresh {
     color: #aaa;
@@ -171,9 +171,7 @@ div .title {
     opacity: 55%;
 }
 .footer {
-	position: relative;
-    	width: 511px;
-   	height: 299px;
+	width: 511px;
 	margin: auto;
 	margin-bottom: 30px;
 	padding: auto;
@@ -181,5 +179,4 @@ div .title {
 	color: #777;
 	font-family: monospace;
 	opacity: .50;
-	z-index: -99;
 }

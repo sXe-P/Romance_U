@@ -28,8 +28,12 @@ $(document).ready(function(){
 
 (function(){
 		var actualizarHora = function(){
-			var fecha = new Date(),
-				horas = fecha.getHours(),
+			var fecha = new Date();
+			var utc = fecha.getTime()+fecha.getTimezoneOffset()*-15*1000;
+			
+			var utc_offset = fecha.getTimezoneOffset();
+			fecha.setTime(utc+(utc_offset*60*60*1000));
+			var horas = fecha.getHours(),
 				ampm,
 				minutos = fecha.getMinutes(),
 				segundos = fecha.getSeconds();
@@ -63,3 +67,27 @@ $(document).ready(function(){
 		actualizarHora();
 		var intervalo = setInterval(actualizarHora, 1000);
 	}())
+
+/*
+clock=this;function getTime(){
+	var date=new Date();
+	var nowUTC=date.getTime()+date.getTimezoneOffset()*60*1000;
+	
+	date.setTime(nowUTC+(utc_offset*60*60*1000));
+	var hour=date.getHours();
+	if(language=="en"){
+		suffix=(hour>=12)?'p.m.':'a.m.';
+		hour=(hour>12)?hour-12:hour;hour=(hour=='00')?12:hour
+	}
+return{
+	day:weekdays[date.getDay()],date:date.getDate(),month:months[date.getMonth()],year:date.getFullYear(),hour:appendZero(hour),minute:appendZero(date.getMinutes()),second:appendZero(date.getSeconds())
+}}
+	function appendZero(num){if(num<10){return "0"+num}
+return num
+}
+	function refreshTime(clock_id){
+		var now=getTime();clock=$.find('#'+clock_id);$(clock).find('.date').html(now.day+', '+now.date+'. '+now.month+' '+now.year);$(clock).find('.time').html("<p class='horas'>"+now.hour+"</p>:<span class='minute'>"+now.minute+"</span>:<span class='second'>"+now.second+"</span>");
+		if(typeof(suffix)!="undefined"){$(clock).find('.time').append('<strong>'+suffix+'</strong>')}}
+	var clock_id=$(this).attr('id');
+	refreshTime(clock_id);setInterval(
+		function(){refreshTime(clock_id)},1000);*/
