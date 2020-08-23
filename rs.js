@@ -31,7 +31,7 @@ $(document).ready(function(){
     })
 
 	$('#btn_html').click(function(){
-    $("#xatbox1").load("https://sxe-p.github.io/Romance_U/html.html");
+    $("#xatbox1").load("https://sxe-p.github.io/Romance_U/html5.html");
     })
 
 (function(){
