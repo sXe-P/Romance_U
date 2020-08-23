@@ -93,3 +93,22 @@ a:hover {
 .idx {
 	margin: 5px;
 }
+.widget {
+	width: 15%;
+	height: 5%;
+	margin: 1em;
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+.reloj {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 0.3125rem;
+	background: rgba(0,0,0,.5);
+}
+.reloj .caja-segundos {
+	display: inline-block;
+}
