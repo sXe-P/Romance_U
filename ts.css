@@ -122,38 +122,6 @@ a:hover {
 	font-size: 1rem;
 	display: block;
 }
-
-.reloj span:nth-child(3):after {
-    font-size: .8em!important;
-    left: 1px!important
-}
-
-.reloj sup {
-    padding-left: 6px!important;
-    font-size: 15px!important;
-    position: absolute;
-    top: 5px;
-    right: 45px;
-}
-
-.reloj span:nth-child(1) {
-    padding-right: 14px!important
-}
-
-.reloj span:nth-child(1):after {
-    top: -2px!important
-}
-
-.reloj span:nth-child(3) {
-    padding-left: 12px!important
-}
-
-.reloj span:nth-child(3):after {
-    font-size: 32px!important;
-    top: -2px!important;
-    left: -1px!important
-}
-
 .reloj span:nth-child(1) {
 	display: block;
     padding-right: 17px!important
