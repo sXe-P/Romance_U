@@ -93,6 +93,10 @@ a:hover {
 .idx {
 	margin: 5px;
 }
+.widget {
+	width: 15%;
+	margin: 1em;
+}
 .widget p {
 	display: inline-block;
 	line-height: 1em;
