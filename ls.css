@@ -171,7 +171,9 @@ div .title {
     opacity: 55%;
 }
 .footer {
-	width: 511px;
+	position: relative;
+    	width: 511px;
+   	height: 299px;
 	margin: auto;
 	margin-bottom: 30px;
 	padding: auto;
