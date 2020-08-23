@@ -2,7 +2,7 @@
     position: relative;
     margin: auto;
     width: 930px;
-    z-index: -1;
+    z-index: 1;
 }
 .box1 {
     width: 745px;
@@ -20,7 +20,7 @@
     line-height: 26px!important;
     float: left;
     box-shadow: 11px 1px 6px -7px #1a1a1a;
-    z-index: -1;
+    z-index: 2;
 }
 .box2 {
     width: auto;
