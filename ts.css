@@ -122,3 +122,73 @@ a:hover {
 	font-size: 1rem;
 	display: block;
 }
+.reloj span:nth-child(1) {
+    padding-right: 17px!important
+}
+
+.reloj span:nth-child(1):after {
+    position: absolute;
+    content: ':'!important;
+    display: block!important;
+    position: absolute!important;
+    left: 45px;
+    margin-top: 12px;
+}
+
+.reloj span:nth-child(3):after {
+    content: ':'!important;
+    display: block!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    color: #b7b7b7!important;
+    font-size: 42px!important;
+    margin-left: 62px;
+    margin-top: 8px;
+}
+
+.reloj span:nth-child(1) {
+    padding-right: 11px!important
+}
+
+.reloj span:nth-child(1):after {
+    font-size: .8em!important;
+    top: 3px!important;
+    right: 3px!important
+}
+
+.reloj span:nth-child(3) {
+    font-size: 20px!important;
+    padding-left: 6px!important
+}
+
+.reloj span:nth-child(3):after {
+    font-size: .8em!important;
+    left: 1px!important
+}
+
+.reloj sup {
+    padding-left: 6px!important;
+    font-size: 15px!important;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+}
+
+.reloj span:nth-child(1) {
+    padding-right: 14px!important
+}
+
+.reloj span:nth-child(1):after {
+    top: -2px!important
+}
+
+.reloj span:nth-child(3) {
+    padding-left: 12px!important
+}
+
+.reloj span:nth-child(3):after {
+    font-size: 32px!important;
+    top: -2px!important;
+    left: -1px!important
+}
