@@ -179,4 +179,5 @@ div .title {
 	color: #777;
 	font-family: monospace;
 	opacity: .50;
+	z-index: -99;
 }
