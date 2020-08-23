@@ -26,6 +26,14 @@ $(document).ready(function(){
     $(".box1").load("https://sxe-p.github.io/Romance_U/programacion.html");
     })
 
+	$('#btn_flash').click(function(){
+    $("#xatbox1").load("https://sxe-p.github.io/Romance_U/flash.html");
+    })
+
+	$('#btn_html').click(function(){
+    $("#xatbox1").load("https://sxe-p.github.io/Romance_U/html.html");
+    })
+
 (function(){
 		var actualizarHora = function(){
 			var fecha = new Date();

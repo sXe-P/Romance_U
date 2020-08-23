@@ -167,6 +167,26 @@ div .title {
 #btn_fresh {
     text-decoration: none;
 }
+.btn-flash {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 3;
+}
+.btn-flash img {
+	width: 50px;
+	opacity: .5;
+}
+.btn-html {
+    position: absolute;
+    top: 11%;
+    left: 100%;
+    z-index: 3;
+}
+.btn-html img {
+	width: 50px;
+	opacity: .5;
+}
 .load {
     opacity: 55%;
 }
