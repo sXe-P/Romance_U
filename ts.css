@@ -93,35 +93,3 @@ a:hover {
 .idx {
 	margin: 5px;
 }
-.widget {
-	width: 15%;
-	margin: 1em;
-	margin-top: 15%;
-	position: absolute;
-}
-.widget p {
-	display: inline-block;
-	line-height: 1em;
-}
-.reloj {
-	font-family: Oswald, Arial;
-	text-align: center;
-	font-size: 2.2em;
-	margin-bottom: 0.3125rem;
-	background: rgba(0,0,0,.5);
-	padding: 5px;
-	width: 100%;
-}
-.reloj .caja-segundos {
-	display: inline-block;
-}
-
-.reloj .segundos,
-.reloj .ampm {
-	font-size: 1rem;
-	display: block;
-}
-.reloj .hdm {
-	font-size: 1rem;
-	display: block;
-}
