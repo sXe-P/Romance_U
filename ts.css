@@ -2,7 +2,7 @@
     position: relative;
     margin: auto;
     width: 930px;
-    z-index: ;
+    z-index: -1;
 }
 .box1 {
     width: 745px;
@@ -94,8 +94,8 @@ a:hover {
 	margin: 5px;
 }
 .widget {
-	width: 15%;
-	margin: 1em;
+	margin-top: 15%;
+	position: absolute;
 }
 .widget p {
 	display: inline-block;
@@ -108,7 +108,7 @@ a:hover {
 	margin-bottom: 0.3125rem;
 	background: rgba(0,0,0,.5);
 	padding: 5px;
-	width: 100%;
+	width: 15%;
 }
 .reloj .caja-segundos {
 	display: inline-block;
