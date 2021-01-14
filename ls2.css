@@ -4,7 +4,6 @@ padding: 0;
 }
 body {
     min-height: 100vh;
-    background: rgb(15, 15, 15);
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -20,7 +19,6 @@ body {
     padding-bottom: 60px;
     background-position: Center;
     background-attachment: scroll;
-    background-image:url(https://xat.com/web_gear/chat/GetImage7.php?U=https://i.imgur.com/LGPWtrU.jpg);
     justify-content: center;
     align-items: center;
 }
@@ -30,7 +28,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: #404040;
     z-index: 1;
     opacity: .25;
 }
@@ -41,7 +38,6 @@ body {
     position: absolute;
     top: 1px;
     bottom: 1px;
-    background: linear-gradient(rgba(15, 15, 15,0) 70%,rgba(15, 15, 15,1));
     z-index: 2;
 }
 .xatbox {
